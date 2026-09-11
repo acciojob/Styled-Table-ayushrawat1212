@@ -1,7 +1,21 @@
 table {
     border-collapse: collapse;
-    width: 100%;
-    max-width: 800px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+    width: 90%;
+	margin: 80px auto;
+    
+     border-radius: 15px;
+    overflow: hidden;
 }
+
+th {
+            background-color: #28679a;
+            color: white;
+            text-align: left;
+        }
+ th, td {
+            padding: 16px;
+        }
+
+tr:nth-child(even) {
+            background-color: #ddd;
+        }
